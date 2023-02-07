@@ -1,0 +1,7 @@
+type Attestation @entity {
+  id: ID!
+  creator: String!
+  about: String!
+  key: String!
+  val: String!
+}
