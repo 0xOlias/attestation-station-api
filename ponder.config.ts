@@ -12,7 +12,7 @@ export const config: PonderConfig = {
       address: "0xee36eaad94d1cc1d0eccadb55c38bffb6be06c77",
       startBlock: 49669971,
       // endBlock: 50669971, // Only index first 10M blocks after contract was deployed
-      blockLimit: 50000,
+      blockLimit: 2000,
     },
   ],
 };
