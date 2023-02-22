@@ -9,10 +9,10 @@ import { ponder } from "../generated";
 // });
 
 ponder.on("Proxy:AttestationCreated", async ({ event, context }) => {
-	await context.entities.Attestation.insert(event.log.logId, {
-		creator: event.params.creator,
-		about: event.params.about,
-		key: event.params.key.toString(),
-		val: event.params.val.toString(),
-	});
+  await context.entities.Attestation.insert(event.log.logId, {
+    creator: event.params.creator,
+    about: event.params.about,
+    key: event.params.key.toString(),
+    val: event.params.val.toString(),
+  });
 });
