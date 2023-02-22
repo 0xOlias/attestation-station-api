@@ -1,8 +1,6 @@
 import type { PonderConfig } from "@ponder/core";
-import { graphqlPlugin } from "@ponder/graphql";
 
 export const config: PonderConfig = {
-  plugins: [graphqlPlugin()],
   networks: [
     { name: "optimism", chainId: 10, rpcUrl: process.env.PONDER_RPC_URL_10 },
   ],
