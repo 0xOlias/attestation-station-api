@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@ponder/core': latest
+  '@ponder/core': ^0.0.43
   '@types/node': ^18.11.18
   abitype: ^0.7.1
   typescript: ^4.9.5
   viem: ^0.1.13
 
 dependencies:
-  '@ponder/core': 0.0.42_typescript@4.9.5
+  '@ponder/core': 0.0.43_typescript@4.9.5
 
 devDependencies:
   '@types/node': 18.11.18
@@ -97,8 +97,8 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@ponder/core/0.0.42_typescript@4.9.5:
-    resolution: {integrity: sha512-JhyDkrhkkqpr30bjFsDBDUrUAd8pU+y/AQJO9MaO1EpQ2t3U4MvgJDoxhEQz961UuQOReFZE75SxEbkG3dHeaw==}
+  /@ponder/core/0.0.43_typescript@4.9.5:
+    resolution: {integrity: sha512-YNB62HtyFhaeD09qR8yv+b5D1cLqhSzXEoHKdPpqmCOBFX/+CQWFuswA63M0LR74ECT877nOBehwK9MSBkMCyA==}
     hasBin: true
     dependencies:
       '@babel/code-frame': 7.18.6
